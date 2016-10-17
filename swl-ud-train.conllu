@@ -50,7 +50,7 @@
 
 1	TITTA-PÅ	_	VERB	VB	_	0	root	_	_
 
-1	PU@g	_	X	G	_	2	discourse	_	_
+1	PU@g	_	INTJ	G	_	2	discourse	_	_
 2	LETA	_	VERB	VB	_	0	root	_	_
 3	TRÖJA	_	NOUN	NN	_	4	dobj	_	_
 4	HAND(AA)+HANTERA@p	_	VERB	VBAV	_	2	conj	_	_
@@ -62,7 +62,7 @@
 1	FINNAS*INTE	_	VERB	VB	_	0	root	_	_
 2	FINNAS*INTE	_	VERB	VB	_	1	conj	_	_
 3	GLOSA:(PD)@z	_	X	?	_	1	dep	_	_
-4	PU@g	_	X	G	_	1	discourse	_	_
+4	PU@g	_	INTJ	G	_	1	discourse	_	_
 
 1	FASTNA	_	ADV	AB	_	0	root	_	_
 2	ENTITET(SS)+BEFINNA@p>ansikte	_	VERB	VBAV	_	1	conj	_	_
@@ -231,7 +231,7 @@
 3	TITTA-PÅ	_	VERB	VB	_	1	conj	_	_
 
 1	SEN	_	ADV	AB	_	6	advmod	_	_
-2	PU@g	_	X	G	_	6	dep	_	_
+2	PU@g	_	INTJ	G	_	6	dep	_	_
 3	NU@b	_	ADV	AB	_	6	advmod	_	_
 4	POJKE	_	NOUN	NN	_	6	nmod	_	_
 5	LÅTA-VARA	_	X	G	_	6	dep	_	_
