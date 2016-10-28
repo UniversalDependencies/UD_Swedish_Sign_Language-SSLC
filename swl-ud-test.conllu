@@ -112,7 +112,7 @@
 1	PEK@z	_	PRON	PEK	_	4	nsubj	_	_
 2	HAND(YYb)+HANTERA@p	_	VERB	VBAV	_	0	root	_	_
 3	STARTA	_	VERB	VB	_	4	aux	_	_
-4	LETA	_	VERB	VB	_	2	root	_	_
+4	LETA	_	VERB	VB	_	2	conj	_	_
 5	FORTSÄTTA	_	VERB	VB	_	2	conj	_	_
 6	LETA	_	VERB	VB	_	2	conj	_	_
 7	BANSTRÄCKA	_	VERB	VBAV	_	2	conj	_	_
@@ -285,7 +285,7 @@
 1	PEK	_	DET	PEK	_	2	det	_	_
 2	GRODA	_	NOUN	NN	_	4	nsubj	_	_
 3	PERF	_	VERB	VB	_	4	aux	_	_
-4	TRÄFFAS	_	VERB	VB	_	0	conj	_	_
+4	TRÄFFAS	_	VERB	VB	_	0	root	_	_
 5	FLICKA	_	NOUN	NN	_	4	dobj	_	_
 6	PEK	_	DET	PEK	_	5	det	_	_
 7	HA	_	VERB	VB	_	4	conj	_	_
