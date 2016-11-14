@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>82</sentences><tokens>672</tokens><words>672</words><fused>0</fused></total>
+  </size>
+  <lemmas unique="0" /><!--  -->
+  <forms unique="324" /><!-- PEK, HUND, GRODA, POJKE, TITTA-PÅ, PRO1, VARELSE(Vb)+FÖRFLYTTA@p, INUTI, VAR, BANSTRÄCKA, BI, HAND(GG)+HANTERA@p, LÅTA-VARA, PU@g, VARELSE(VVb)+FÖRFLYTTA@p -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
+  <tags unique="11">
+    <tag name="ADJ">14</tag><!-- _ -->
+    <tag name="ADP">8</tag><!-- _ -->
+    <tag name="ADV">35</tag><!-- _ -->
+    <tag name="CONJ">3</tag><!-- _ -->
+    <tag name="DET">19</tag><!-- _ -->
+    <tag name="INTJ">14</tag><!-- _ -->
+    <tag name="NOUN">149</tag><!-- _ -->
+    <tag name="NUM">8</tag><!-- _ -->
+    <tag name="PRON">45</tag><!-- _ -->
+    <tag name="VERB">318</tag><!-- _ -->
+    <tag name="X">59</tag><!-- _ -->
+  </tags>
+  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
+  <feats unique="0">
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="25">
+    <dep name="acl">12</dep>
+    <dep name="acl:relcl">7</dep>
+    <dep name="advcl">11</dep>
+    <dep name="advmod">18</dep>
+    <dep name="amod">10</dep>
+    <dep name="aux">13</dep>
+    <dep name="case">9</dep>
+    <dep name="cc">6</dep>
+    <dep name="ccomp">9</dep>
+    <dep name="compound">24</dep>
+    <dep name="conj">230</dep>
+    <dep name="cop">5</dep>
+    <dep name="dep">21</dep>
+    <dep name="det">24</dep>
+    <dep name="discourse">20</dep>
+    <dep name="dobj">26</dep>
+    <dep name="mark">2</dep>
+    <dep name="nmod">46</dep>
+    <dep name="nmod:pass">1</dep>
+    <dep name="nsubj">81</dep>
+    <dep name="nummod">5</dep>
+    <dep name="remnant">1</dep>
+    <dep name="reparandum">6</dep>
+    <dep name="root">82</dep>
+    <dep name="xcomp">3</dep>
+  </deps>
+</treebank>
