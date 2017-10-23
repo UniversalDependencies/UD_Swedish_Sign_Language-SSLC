@@ -13,6 +13,13 @@ contributed to the part-of-speech annotations. Robert Östling has contributed
 software for converting between the annotation format (ELAN) and CoNLL-U.
 
 
+Changelog
+
+2016-10-23 v2.1
+    * Conversion to UDv2 (manually by Carl Börstell)
+    * Added sentence ID:s identifying the SSLC tokens
+    * Further annotations and fixes to old annotations
+
 
 --- Machine-readable metadata ---
 Documentation status: stub
