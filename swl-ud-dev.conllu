@@ -665,6 +665,25 @@
 7	HATT	_	NOUN	NN	_	5	conj	_	_
 8	NÅGON	_	PRON	PN	_	7	nmod	_	_
 
+# sent_id = SSLC02_332:110:116
+# text = MAMMA HAND(AA)+HANTERA@p HATT HAND(AA)+HANTERA@p>huvud HALSDUK HAND(S)+HANTERA@p>hals FINEMANG
+1	MAMMA	_	NOUN	NN	_	2	nsubj	_	_
+2	HAND(AA)+HANTERA@p	_	VERB	VBAV	_	0	root	_	_
+3	HATT	_	NOUN	NN	_	2	obj	_	_
+4	HAND(AA)+HANTERA@p>huvud	_	VERB	VBAV	_	2	conj	_	_
+5	HALSDUK	_	NOUN	NN	_	6	obj	_	_
+6	HAND(S)+HANTERA@p>hals	_	VERB	VBAV	_	4	conj	_	_
+7	FINEMANG	_	ADJ	JJ	_	2	discourse	_	_
+
+# sent_id = SSLC02_332:117:122
+# text = POJKE GNUGGA-HÄNDER@ca ROLIG GNUGGA-HÄNDER@ca VARELSE(N)+FÖRFLYTTA@p GÅ-IN(N)
+1	POJKE	_	NOUN	NN	_	2	nsubj	_	_
+2	GNUGGA-HÄNDER@ca	_	VERB	VBCA	_	0	root	_	_
+3	ROLIG	_	ADJ	JJ	_	2	discourse	_	_
+4	GNUGGA-HÄNDER@ca	_	VERB	VBCA	_	2	conj	_	_
+5	VARELSE(N)+FÖRFLYTTA@p	_	VERB	VBAV	_	2	conj	_	_
+6	GÅ-IN(N)	_	VERB	VB	_	5	compound:svc	_	_
+
 # sent_id = SSLC02_332:123:143
 # text = KVÄLL FÖRÄLDRAR SITTA(Vb) TV@b KNAPPA-FJÄRRKONTROLL POJKE TITTA-UT@ca SNÖ^GUBBE TITTA-UT@ca JÄMN TITTA-PÅ PÅKALLA-UPPMÄRKSAMHET@g PEK PRO1 GÖRA PEK TITTA-UT@ca MAMMA@z JA@ub@z PÅKALLA-UPPMÄRKSAMHET@g LUGNA@g
 1	KVÄLL	_	NOUN	NN	_	3	advmod	_	_
