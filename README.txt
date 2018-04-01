@@ -15,15 +15,15 @@ software for converting between the annotation format (ELAN) and CoNLL-U.
 
 Changelog
 
-2016-10-23 v2.1
-    * Conversion to UDv2 (manually by Carl Börstell)
-    * Added sentence ID:s identifying the SSLC tokens
-    * Further annotations and fixes to old annotations
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Swedish_Sign_Language to UD_Swedish_Sign_Language-SSLC.
+* 2016-10-23 v2.1
+  * Conversion to UDv2 (manually by Carl Börstell)
+  * Added sentence ID:s identifying the SSLC tokens
+  * Further annotations and fixes to old annotations
 
 
 --- Machine-readable metadata ---
-Documentation status: stub
-Data source: manual
 Data available since: UD v1.4
 License: CC BY-SA 4.0
 Genre: spoken
