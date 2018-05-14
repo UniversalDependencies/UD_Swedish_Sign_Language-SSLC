@@ -150,10 +150,10 @@
 # sent_id = SSLC01_320:108:112
 # text = PRO1 JA@ub OK@b PRO1 STARTA
 1	PRO1	_	PRON	PN	_	2	nsubj	_	_
-2	JA@ub	_	INTJ	INTERJ	_	5	conj	_	_
-3	OK@b	_	INTJ	INTERJ	_	5	conj	_	_
+2	JA@ub	_	INTJ	INTERJ	_	0	root	_	_
+3	OK@b	_	INTJ	INTERJ	_	2	conj	_	_
 4	PRO1	_	PRON	PN	_	5	nsubj	_	_
-5	STARTA	_	VERB	VB	_	0	root	_	_
+5	STARTA	_	VERB	VB	_	2	conj	_	_
 
 # sent_id = SSLC01_320:113:133
 # text = TIDEN-GÅR EN ÅR+EN KLOCKPERIOD.NATTDEL TILL VÅR(B) KLOCKPERIOD.EFTERMDEL DÅ@b EN BIRGITTA-JONSSON@en STUDIE^REKTOR KOMMA-HIT(L) SA PEK TECKENSPRÅK^LÄRARE SJUK KAN IN@b HÖG^STADIUM UNDERVISA@rd TECKENSPRÅK
@@ -556,9 +556,9 @@
 
 # sent_id = SSLC02_332:31:39
 # text = MAMMA JA@ub@z PÅKALLA-UPPMÄRKSAMHET@g MÖSSA(G) SKA PEK PEK HÄMTA PEK
-1	MAMMA	_	NOUN	NN	_	3	nsubj	_	_
-2	JA@ub@z	_	INTJ	INTERJ	_	3	conj	_	_
-3	PÅKALLA-UPPMÄRKSAMHET@g	_	X	G	_	0	root	_	_
+1	MAMMA	_	NOUN	NN	_	2	nsubj	_	_
+2	JA@ub@z	_	INTJ	INTERJ	_	0	root	_	_
+3	PÅKALLA-UPPMÄRKSAMHET@g	_	X	G	_	2	conj	_	_
 4	MÖSSA(G)	_	NOUN	NN	_	8	obj	_	_
 5	SKA	_	VERB	VB	_	8	aux	_	_
 6	PEK	_	PRON	PEK	_	8	nsubj	_	_

@@ -26,8 +26,8 @@
 # sent_id = SSLC01_104:20:29
 # text = NÅGOT-KOMMA-MELLAN@z LISTBOJ.TVÅ PEK>långf DÖVFÖRENING ORDFÖRANDE SUMMA@z BLI@z TVÅ SITTA@z SITTA
 1	NÅGOT-KOMMA-MELLAN@z	_	VERB	VB	_	0	root	_	_
-2	LISTBOJ.TVÅ	_	X	BOJ	_	3	conj	_	_
-3	PEK>långf	_	DET	PEK	_	5	det	_	_
+2	LISTBOJ.TVÅ	_	X	BOJ	_	5	det	_	_
+3	PEK>långf	_	DET	PEK	_	2	conj	_	_
 4	DÖVFÖRENING	_	NOUN	NN	_	5	compound	_	_
 5	ORDFÖRANDE	_	NOUN	NN	_	1	nsubj	_	_
 6	SUMMA@z	_	NOUN	NN	_	1	advmod	_	_
@@ -429,8 +429,8 @@
 
 # sent_id = SSLC01_391:136:149
 # text = GREPPA TA-FRAM(Lbt)@z KOPPEL HAND(Q)+HANTERA+HAND(Lvs)@p BETALA KONTANT GLOSA:(?)@z HAND(Q)+HANTERA@p BEGE-SIG-HEM HAND(Q)+HANTERA@p HAND(Q)@p@hd POSS1 TOLK HAND(Q)+HANTERA@p
-1	GREPPA	_	VERB	VB	_	2	conj	_	_
-2	TA-FRAM(Lbt)@z	_	VERB	VB	_	0	root	_	_
+1	GREPPA	_	VERB	VB	_	0	root	_	_
+2	TA-FRAM(Lbt)@z	_	VERB	VB	_	1	conj	_	_
 3	KOPPEL	_	NOUN	NN	_	2	obj	_	_
 4	HAND(Q)+HANTERA+HAND(Lvs)@p	_	VERB	VBAV	_	2	conj	_	_
 5	BETALA	_	VERB	VB	_	2	conj	_	_
@@ -739,8 +739,8 @@
 5	GETING	_	NOUN	NN	_	6	compound	_	_
 6	FORM(JJb)+BESKRIVNING@p	_	VERB	VBAV	_	4	obl	_	_
 7	VARELSE(VVb)+RÖRELSE@p@rd	_	VERB	VBAV	_	4	conj	_	_
-8	VARELSE(Vb)@p@hd	_	VERB	VBAV	_	9	conj	_	_
-9	ENTITET(S)+FÖRFLYTTA@p	_	VERB	VBAV	_	4	conj	_	_
+8	VARELSE(Vb)@p@hd	_	VERB	VBAV	_	4	conj	_	_
+9	ENTITET(S)+FÖRFLYTTA@p	_	VERB	VBAV	_	8	conj	_	_
 
 # sent_id = SSLC02_409:173:178
 # text = GETING ENTITET(YY)+FÖRFLYTTA@p HUND VARELSE(VVb)+RÖRELSE@p BEGE-SIG-IVÄG SPRINGA(G)
@@ -764,10 +764,10 @@
 
 # sent_id = SSLC02_409:187:209
 # text = BERG HÖJD@kl HÖJD@kl@hd VARELSE(Vb)+FÖRFLYTTA@p TRÄD FORM(SS)+UTSTRÄCKNING@p PEK@z HAND(GG)+HANTERA@p ROPA HAND(GG)+HANTERA@p HAND(G)@p@hd FO PEK(J) HJORT BETA HORNKRONA@z HAND(GG)+HANTERA@p VARELSE(NN)+BEFINNA@p ENTITET(G)+RÖRELSE@p VARELSE(Vb)+ENTITET(G)+FÖRFLYTTA@p@z HUND VARELSE(VVb)+RÖRELSE@p BANSTRÄCKA
-1	BERG	_	NOUN	NN	_	4	obl	_	_
+1	BERG	_	NOUN	NN	_	3	obl	_	_
 2	HÖJD@kl	_	NOUN	NNKL	_	1	clf	_	_
-3	HÖJD@kl@hd	_	NOUN	NNKL	_	4	conj	_	_
-4	VARELSE(Vb)+FÖRFLYTTA@p	_	VERB	VBAV	_	0	root	_	_
+3	HÖJD@kl@hd	_	NOUN	NNKL	_	0	root	_	_
+4	VARELSE(Vb)+FÖRFLYTTA@p	_	VERB	VBAV	_	3	conj	_	_
 5	TRÄD	_	NOUN	NN	_	4	obl	_	_
 6	FORM(SS)+UTSTRÄCKNING@p	_	VERB	VBAV	_	5	clf	_	_
 7	PEK@z	_	PRON	PEK	_	8	nsubj	_	_
