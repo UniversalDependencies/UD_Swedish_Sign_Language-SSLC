@@ -6,6 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>203</sentences><tokens>1610</tokens><words>1610</words><fused>0</fused></total>
+    <train><sentences>87</sentences><tokens>644</tokens><words>644</words><fused>0</fused></train>
+    <dev><sentences>82</sentences><tokens>684</tokens><words>684</words><fused>0</fused></dev>
+    <test><sentences>34</sentences><tokens>282</tokens><words>282</words><fused>0</fused></test>
   </size>
   <lemmas unique="0" /><!--  -->
   <forms unique="693" /><!-- PRO1, PEK, TITTA-PÅ, POJKE, HUND, GRODA, PU@g, INUTI, TID-FRAMÅT, VARELSE(Vb)+FÖRFLYTTA@p, HAND(G)+HANTERA@p, TILL, VAD, EN, GLOSA:(?)@z -->
