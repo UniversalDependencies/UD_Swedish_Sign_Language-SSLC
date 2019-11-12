@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Swedish_Sign_Language-SSLC:
-commit 9fa3ec875a6408eee956bf9ae3ca1e63d2128c8c
-Merge: 1cd4220 0a8f74f
+commit 439e0ac3ccd33f5b4a7b51d3fdaf6d0ae43704cd
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 21:45:31 2019 +0200
 Size: counted 1610 of 1610 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.952468357992743.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,12 +23,48 @@ Udapi: found 949 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 1610 words.
 Genres: found 1 out of 17 known.
 validate.py --lang swl --max-err=10 UD_Swedish_Sign_Language-SSLC/swl_sslc-ud-dev.conllu
-*** PASSED ***
+[Line 5 Sent SSLC01_320:1:5 Node 3]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 7 Sent SSLC01_320:1:5 Node 3]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (3:HETA:cop --> 5:TEDDIE-SUNDQVIST@en:flat)
+[Line 25 Sent SSLC01_320:14:26 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 53 Sent SSLC01_320:30:38 Node 7]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'ADJ'
+[Line 142 Sent SSLC01_320:97:107 Node 5]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON'
+[Line 160 Sent SSLC01_320:113:133 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 168 Sent SSLC01_320:113:133 Node 9]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 176 Sent SSLC01_320:113:133 Node 17]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 250 Sent SSLC01_320:170:184 Node 13]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON'
+...suppressing further errors regarding Syntax
+Syntax errors: 36
+*** FAILED *** with 36 errors
+Exit code: 1
 validate.py --lang swl --max-err=10 UD_Swedish_Sign_Language-SSLC/swl_sslc-ud-test.conllu
-*** PASSED ***
+[Line 4 Sent SSLC02_331:1:20 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 7 Sent SSLC02_331:1:20 Node 5]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 16 Sent SSLC02_331:1:20 Node 14]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 19 Sent SSLC02_331:1:20 Node 17]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'X'
+[Line 31 Sent SSLC02_331:22:36 Node 2]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON'
+[Line 32 Sent SSLC02_331:22:36 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'X'
+[Line 34 Sent SSLC02_331:22:36 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'X'
+[Line 74 Sent SSLC02_331:52:62 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 121 Sent SSLC02_331:87:94 Node 6]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+...suppressing further errors regarding Syntax
+Syntax errors: 18
+*** FAILED *** with 18 errors
+Exit code: 1
 validate.py --lang swl --max-err=10 UD_Swedish_Sign_Language-SSLC/swl_sslc-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 10 Sent SSLC01_104:3:19 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 29 Sent SSLC01_104:20:29 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'X'
+[Line 33 Sent SSLC01_104:20:29 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 41 Sent SSLC01_104:30:37 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'X'
+[Line 44 Sent SSLC01_104:30:37 Node 4]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'X'
+[Line 53 Sent SSLC01_104:38:55 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'X'
+[Line 86 Sent SSLC01_104:56:73 Node 14]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'X'
+[Line 179 Sent SSLC01_104:18:30 Node 1]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 183 Sent SSLC01_104:18:30 Node 5]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+...suppressing further errors regarding Syntax
+Syntax errors: 24
+*** FAILED *** with 24 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.01) = 0.000769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
@@ -37,6 +73,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.517647058823529) = 0.0398190045248869
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.117045571728837) * (availability=1) * (validity=1) = 0.117045571728837
-STARS = 0.5
-UD_Swedish_Sign_Language-SSLC	0.117045571728837	0.5
+(TOTAL score=0.117045571728837) * (availability=1) * (validity=0.01) = 0.00117045571728837
+STARS = 0
+UD_Swedish_Sign_Language-SSLC	0.00117045571728837	0
