@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
-Author: www-data (nschneid) <nschneid@github.com>
-Date:   Wed May 11 05:10:30 2022 +0200
-Evaluating the following revision of UD_Swedish_Sign_Language-SSLC:
-commit ae3fe008057df10c0c83c24b92d4c5800e9ebb3d
+commit 13e6b709a8bc643c3f902800321a7beda46feb8d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Nov 3 17:05:11 2021 +0100
+Date:   Sun Nov 13 22:03:41 2022 +0100
+Evaluating the following revision of UD_Swedish_Sign_Language-SSLC:
+commit 66ee2c100b1f66890266d3cfbd88b93be2a7bf66
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat May 14 15:30:20 2022 +0200
 Size: counted 1610 of 1610 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.952468357992743.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -28,15 +28,15 @@ validate.py --lang swl --max-err=10 UD_Swedish_Sign_Language-SSLC/swl_sslc-ud-de
 [Line 5 Sent SSLC01_320:1:5 Node 3]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 7 Sent SSLC01_320:1:5 Node 3]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (3:HETA:cop --> 5:TEDDIE-SUNDQVIST@en:flat)
 [Line 25 Sent SSLC01_320:14:26 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 27 Sent SSLC01_320:14:26 Node 3]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 5]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 53 Sent SSLC01_320:30:38 Node 7]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'ADJ'
 [Line 142 Sent SSLC01_320:97:107 Node 5]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON'
 [Line 160 Sent SSLC01_320:113:133 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 168 Sent SSLC01_320:113:133 Node 9]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 176 Sent SSLC01_320:113:133 Node 17]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
-[Line 250 Sent SSLC01_320:170:184 Node 13]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON'
 ...suppressing further errors regarding Syntax
-Syntax errors: 36
-*** FAILED *** with 36 errors
+Syntax errors: 37
+*** FAILED *** with 37 errors
 Exit code: 1
 validate.py --lang swl --max-err=10 UD_Swedish_Sign_Language-SSLC/swl_sslc-ud-test.conllu
 [Line 4 Sent SSLC02_331:1:20 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
@@ -49,8 +49,8 @@ validate.py --lang swl --max-err=10 UD_Swedish_Sign_Language-SSLC/swl_sslc-ud-te
 [Line 74 Sent SSLC02_331:52:62 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 121 Sent SSLC02_331:87:94 Node 6]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 ...suppressing further errors regarding Syntax
-Syntax errors: 18
-*** FAILED *** with 18 errors
+Syntax errors: 19
+*** FAILED *** with 19 errors
 Exit code: 1
 validate.py --lang swl --max-err=10 UD_Swedish_Sign_Language-SSLC/swl_sslc-ud-train.conllu
 [Line 10 Sent SSLC01_104:3:19 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
