@@ -22,11 +22,11 @@
 
 # sent_id = SSLC01_320:14:26
 # text = EN DÖV SÅG PEK PRO1 HA HÅL@b HÅL>öra BESTÄMMA-SIG PEK TEDDIE-SUNDQVIST@en ORSAK TEDDIE-SUNDQVIST@en
-1	EN	_	NUM	RG	_	2	det	_	_
+1	EN	_	DET	DT	_	2	det	_	_
 2	DÖV	_	NOUN	NN	_	3	nsubj	_	_
 3	SÅG	_	VERB	VB	_	0	root	_	_
 4	PEK	_	PRON	PEK	_	3	obj	_	_
-5	PRO1	_	PRON	PN	_	3	nsubj	_	_
+5	PRO1	_	PRON	PN	_	6	nsubj	_	_
 6	HA	_	VERB	VB	_	3	ccomp	_	_
 7	HÅL@b	_	NOUN	NN	_	6	obj	_	_
 8	HÅL>öra	_	NOUN	NNKL	_	7	clf	_	_
@@ -139,7 +139,7 @@
 2	FÖRESLÅ	_	VERB	VB	_	0	root	_	_
 3	PU@g	_	INTJ	G	_	2	discourse	_	_
 4	VÄNERBORG@en*SKOLA	_	NOUN	NN	_	2	obj	_	_
-5	PEK	_	PRON	PEK	_	6	case	_	_
+5	PEK	_	PRON	PEK	_	6	det	_	_
 6	UNGDOM^PRAKTIK	_	NOUN	NN	_	2	obl	_	_
 7	PROVA	_	VERB	VB	_	6	acl	_	_
 8	PÅ	_	ADP	PP	_	9	compound:prt	_	_
@@ -165,7 +165,7 @@
 6	VÅR(B)	_	X	?	_	12	obl	_	_
 7	KLOCKPERIOD.EFTERMDEL	_	NOUN	NNKL	_	6	clf	_	_
 8	DÅ@b	_	ADV	AB	_	12	advmod	_	_
-9	EN	_	NUM	RG	_	11	det	_	_
+9	EN	_	DET	DT	_	11	det	_	_
 10	BIRGITTA-JONSSON@en	_	NOUN	NN	_	12	nsubj	_	_
 11	STUDIE^REKTOR	_	NOUN	NN	_	10	appos	_	_
 12	KOMMA-HIT(L)	_	VERB	VBAV	_	0	root	_	_
@@ -247,7 +247,7 @@
 10	FRÅN	_	ADP	PP	_	12	case	_	_
 11	DÄR	_	ADV	AB	_	6	conj	_	_
 12	NITTIO^SJU	_	NUM	RG	_	11	obl	_	_
-13	PEK.REL	_	PRON	PEK	_	15	case	_	_
+13	PEK.REL	_	PRON	PEK	_	15	det	_	_
 14	PUNKTBOJ	_	DET	BOJ	_	12	det	_	_
 15	I@b^DAG	_	ADV	AB	_	12	conj	_	_
 
@@ -314,7 +314,7 @@
 2	PRO1	_	PRON	PN	_	3	nsubj	_	_
 3	ANN-CHARLOTTE-LINDBLOM@en	_	NOUN	NN	_	0	root	_	_
 4	LOTTA@b@en	_	NOUN	NN	_	3	compound	_	_
-5	PI	_	ADV	AB	_	6	advmod	_	_
+5	PI	_	ADV	AB	_	3	advmod	_	_
 6	HETA	_	AUX	VB	_	7	cop	_	_
 7	ANN@b*CHARLOTTE@b@en	_	NOUN	NN	_	3	conj	_	_
 8	KORTVARIG(J)	_	ADJ	JJ	_	10	advmod	_	_
