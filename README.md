@@ -23,6 +23,7 @@ software for converting between the annotation format (ELAN) and CoNLL-U.
 * 2023-04-11 v2.3
   * Multiple fixes to improve consistency and pass the validation script
     (manually by Robert Östling and Carl Börstell)
+  * Merged train, dev and test sets
   * Updated broken URL in README.md
 * 2018-04-15 v2.2
   * Repository renamed from UD_Swedish_Sign_Language to UD_Swedish_Sign_Language-SSLC.
