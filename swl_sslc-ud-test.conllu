@@ -1,10 +1,10 @@
 # sent_id = SSLC02_331:1:20
 # text = JA@ub@z EN BARN POJKE SYNS FEM ÅR@b PEK HA TAX@b GROVLEK(JJ) HEMMA@z PLUS EN FORM(YYb)+BESKRIVNING@p INUTI AVGRÄNS GRODA GROVLEK(JJv) FORM(YYb)+BESKRIVNING@p
 1	JA@ub@z	_	INTJ	INTERJ	_	9	discourse	_	_
-2	EN	_	NUM	RG	_	4	det	_	_
+2	EN	_	DET	DT	_	4	det	_	_
 3	BARN	_	NOUN	NN	_	4	clf	_	_
 4	POJKE	_	NOUN	NN	_	9	nsubj	_	_
-5	SYNS	_	VERB	VB	_	9	cop	_	_
+5	SYNS	_	AUX	VB	_	9	cop	_	_
 6	FEM	_	NUM	RG	_	7	nummod	_	_
 7	ÅR@b	_	NOUN	NN	_	9	acl:relcl	_	_
 8	PEK	_	DET	PEK	_	4	det	_	_
@@ -13,10 +13,10 @@
 11	GROVLEK(JJ)	_	NOUN	NNKL	_	10	clf	_	_
 12	HEMMA@z	_	ADV	AB	_	9	advmod	_	_
 13	PLUS	_	CCONJ	KN	_	15	cc	_	_
-14	EN	_	NUM	RG	_	15	det	_	_
+14	EN	_	DET	DT	_	15	det	_	_
 15	FORM(YYb)+BESKRIVNING@p	_	VERB	VBAV	_	10	conj	_	_
 16	INUTI	_	VERB	VBPP	_	9	acl:relcl	_	_
-17	AVGRÄNS	_	X	BOJ	_	4	det	_	_
+17	AVGRÄNS	_	DET	BOJ	_	4	det	_	_
 18	GRODA	_	NOUN	NN	_	16	nsubj	_	_
 19	GROVLEK(JJv)	_	NOUN	NNKL	_	18	clf	_	_
 20	FORM(YYb)+BESKRIVNING@p	_	VERB	VBAV	_	15	conj	_	_
@@ -29,9 +29,9 @@
 # text = HUND PEK>pekf LISTBOJ.EN PEK>långf LISTBOJ.TVÅ TAX@b SOVA LIGGA(VV) SAMMA SÄNG LIGGA(V) GRODA FORM(YYb)+BESKRIVNING@p FÖNSTER(Y) FYRKANT@kl
 1	HUND	_	NOUN	NN	_	7	nsubj	_	_
 2	PEK>pekf	_	PRON	PEK	_	6	cc	_	_
-3	LISTBOJ.EN	_	X	BOJ	_	6	det	_	_
+3	LISTBOJ.EN	_	DET	BOJ	_	6	det	_	_
 4	PEK>långf	_	DET	PEK	_	6	det	_	_
-5	LISTBOJ.TVÅ	_	X	BOJ	_	6	det	_	_
+5	LISTBOJ.TVÅ	_	DET	BOJ	_	6	det	_	_
 6	TAX@b	_	NOUN	NN	_	1	conj	_	_
 7	SOVA	_	VERB	VB	_	0	root	_	_
 8	LIGGA(VV)	_	VERB	VB	_	7	compound:svc	_	_
@@ -71,7 +71,7 @@
 # text = HUND lukta@& STARTA LUKTA TITTA-PÅ BANSTRÄCKA VAR HAND(YYb)+HANTERA@p ENTITET(YYb)+FÖRFLYTTA@p>huvud FASTNA ENTITET(YYb)+BEFINNA@p>huvud
 1	HUND	_	NOUN	NN	_	4	nsubj	_	_
 2	lukta@&	_	X	?	_	4	reparandum	_	_
-3	STARTA	_	VERB	VB	_	4	aux	_	_
+3	STARTA	_	AUX	VB	_	4	aux	_	_
 4	LUKTA	_	VERB	VB	_	0	root	_	_
 5	TITTA-PÅ	_	VERB	VB	_	4	conj	_	_
 6	BANSTRÄCKA	_	VERB	VBAV	_	4	conj	_	_
@@ -118,9 +118,9 @@
 3	CHOCKA	_	X	NN/VB?	_	1	acl	_	_
 4	VARELSE(Vb)+FÖRFLYTTA@p	_	VERB	VBAV	_	2	conj	_	_
 5	HAND(YYb)+HANTERA@p	_	VERB	VBAV	_	2	conj	_	_
-6	FÅ-INTE(G)	_	VERB	VB	_	7	aux	_	_
+6	FÅ-INTE(G)	_	AUX	VB	_	7	aux	_	_
 7	GÖRA	_	VERB	VB	_	2	conj	_	_
-8	SÅ	_	PRON	PN	_	7	advmod	_	_
+8	SÅ	_	ADV	AB	_	7	advmod	_	_
 
 # sent_id = SSLC02_331:95:98
 # text = HUND SVANS-VIFTA GLAD SVANS-VIFTA
@@ -140,9 +140,9 @@
 # text = PEK@z HAND(YYb)+HANTERA@p STARTA LETA FORTSÄTTA LETA BANSTRÄCKA
 1	PEK@z	_	PRON	PEK	_	4	nsubj	_	_
 2	HAND(YYb)+HANTERA@p	_	VERB	VBAV	_	0	root	_	_
-3	STARTA	_	VERB	VB	_	4	aux	_	_
+3	STARTA	_	AUX	VB	_	4	aux	_	_
 4	LETA	_	VERB	VB	_	2	conj	_	_
-5	FORTSÄTTA	_	VERB	VB	_	4	aux	_	_
+5	FORTSÄTTA	_	AUX	VB	_	4	aux	_	_
 6	LETA	_	VERB	VB	_	4	compound:svc	_	_
 7	BANSTRÄCKA	_	VERB	VBAV	_	2	conj	_	_
 
@@ -205,7 +205,7 @@
 5	ENTITET(YYb)+RÖRELSE@p	_	VERB	VBAV	_	2	advcl	_	_
 6	IRRITERAD@rd	_	VERB	VB	_	4	acl	_	_
 7	ENTITET(YYb)+RÖRELSE@p	_	VERB	VBAV	_	5	compound:svc	_	_
-8	VILL	_	VERB	VB	_	9	aux	_	_
+8	VILL	_	AUX	VB	_	9	aux	_	_
 9	TA-BORT	_	VERB	VB	_	5	conj	_	_
 10	HUND	_	NOUN	NN	_	9	obj	_	_
 11	SOM(S)	_	CCONJ	KN	_	9	advmod	_	_
@@ -229,7 +229,7 @@
 # text = DÅ@b BI STARTA JAGA HUND ENTITET(YY)+FÖRFLYTTA@p HUND VARELSE(VVb)+RÖRELSE@p BEGE-SIG-IVÄG
 1	DÅ@b	_	ADV	AB	_	4	advmod	_	_
 2	BI	_	NOUN	NN	_	4	nsubj	_	_
-3	STARTA	_	VERB	VB	_	4	aux	_	_
+3	STARTA	_	AUX	VB	_	4	aux	_	_
 4	JAGA	_	VERB	VB	_	0	root	_	_
 5	HUND	_	NOUN	NN	_	4	obj	_	_
 6	ENTITET(YY)+FÖRFLYTTA@p	_	VERB	VBAV	_	4	compound:svc	_	_
@@ -276,7 +276,7 @@
 6	HAND(GG)+HANTERA@p	_	VERB	VBAV	_	5	conj	_	_
 7	FÖRSTÅ-INTE	_	VERB	VB	_	5	conj	_	_
 8	VARELSE(NN)+RÖRELSE@p	_	VERB	VBAV	_	2	conj	_	_
-9	VARA	_	VERB	VB	_	10	cop	_	_
+9	VARA	_	AUX	VB	_	10	cop	_	_
 10	HJORT@b	_	NOUN	NN	_	8	xcomp	_	_
 11	HJORT	_	NOUN	NN	_	10	compound	_	_
 12	HAND(GG)+HANTERA@p	_	VERB	VBAV	_	2	conj	_	_
@@ -344,7 +344,7 @@
 # text = PEK GRODA PERF TRÄFFAS FLICKA PEK HA FAMILJ GRODA^FAMILJ PEK
 1	PEK	_	DET	PEK	_	2	det	_	_
 2	GRODA	_	NOUN	NN	_	4	nsubj	_	_
-3	PERF	_	VERB	VB	_	4	aux	_	_
+3	PERF	_	AUX	VB	_	4	aux	_	_
 4	TRÄFFAS	_	VERB	VB	_	0	root	_	_
 5	FLICKA	_	NOUN	NN	_	4	obj	_	_
 6	PEK	_	DET	PEK	_	5	det	_	_
@@ -371,7 +371,7 @@
 5	PRO1	_	PRON	PN	_	4	nsubj	_	_
 6	TA*MED@z	_	VERB	VB	_	1	conj	_	_
 7	ADOPTERA	_	VERB	VB	_	6	compound:svc	_	_
-8	EN	_	NUM	RG	_	9	det	_	_
+8	EN	_	DET	DT	_	9	det	_	_
 9	GRODA	_	NOUN	NN	_	7	obj	_	_
 10	JA@ub@z	_	INTJ	INTERJ	_	1	discourse	_	_
 11	HAND(SJ)+HANTERA@p	_	VERB	VBAV	_	1	conj	_	_
@@ -379,6 +379,6 @@
 
 # sent_id = SSLC02_331:289:290
 # text = VARA*PEK SAGA
-1	VARA*PEK	_	VERB	VB	_	2	cop	_	_
+1	VARA*PEK	_	AUX	VB	_	2	cop	_	_
 2	SAGA	_	NOUN	NN	_	0	root	_	_
 
