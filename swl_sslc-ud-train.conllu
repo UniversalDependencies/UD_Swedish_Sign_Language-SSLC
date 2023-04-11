@@ -30,8 +30,8 @@
 3	PEK>långf	_	DET	PEK	_	2	conj	_	_
 4	DÖVFÖRENING	_	NOUN	NN	_	5	compound	_	_
 5	ORDFÖRANDE	_	NOUN	NN	_	1	nsubj	_	_
-6	SUMMA@z	_	NOUN	NN	_	1	advmod	_	_
-7	BLI@z	_	VERB	VB	_	1	conj	_	_
+6	SUMMA@z	_	NOUN	NN	_	1	advcl	_	_
+7	BLI@z	_	VERB	VB	_	1	advcl	_	_
 8	TVÅ	_	NUM	RG	_	9	nummod	_	_
 9	SITTA@z	_	VERB	VB	_	7	obj	_	_
 10	SITTA	_	VERB	VB	_	9	conj	_	_
