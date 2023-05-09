@@ -6,26 +6,28 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>203</sentences><tokens>1610</tokens><words>1610</words><fused>0</fused></total>
-    <train><sentences>87</sentences><tokens>644</tokens><words>644</words><fused>0</fused></train>
-    <dev><sentences>82</sentences><tokens>684</tokens><words>684</words><fused>0</fused></dev>
-    <test><sentences>34</sentences><tokens>282</tokens><words>282</words><fused>0</fused></test>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>203</sentences><tokens>1610</tokens><words>1610</words><fused>0</fused></test>
   </size>
   <lemmas unique="0" /><!--  -->
   <forms unique="693" /><!-- PRO1, PEK, TITTA-PÅ, POJKE, HUND, GRODA, PU@g, INUTI, TID-FRAMÅT, VARELSE(Vb)+FÖRFLYTTA@p, HAND(G)+HANTERA@p, TILL, VAD, EN, GLOSA:(?)@z -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
-  <tags unique="11">
+  <tags unique="13">
     <tag name="ADJ">55</tag><!-- _ -->
-    <tag name="ADP">25</tag><!-- _ -->
-    <tag name="ADV">115</tag><!-- _ -->
+    <tag name="ADP">24</tag><!-- _ -->
+    <tag name="ADV">119</tag><!-- _ -->
+    <tag name="AUX">37</tag><!-- _ -->
     <tag name="CCONJ">13</tag><!-- _ -->
-    <tag name="DET">39</tag><!-- _ -->
-    <tag name="INTJ">47</tag><!-- _ -->
+    <tag name="DET">61</tag><!-- _ -->
+    <tag name="INTJ">56</tag><!-- _ -->
     <tag name="NOUN">362</tag><!-- _ -->
-    <tag name="NUM">31</tag><!-- _ -->
-    <tag name="PRON">177</tag><!-- _ -->
-    <tag name="VERB">648</tag><!-- _ -->
-    <tag name="X">98</tag><!-- _ -->
+    <tag name="NUM">25</tag><!-- _ -->
+    <tag name="PART">1</tag><!-- _ -->
+    <tag name="PRON">175</tag><!-- _ -->
+    <tag name="VERB">611</tag><!-- _ -->
+    <tag name="X">71</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="0">
@@ -34,30 +36,30 @@
   <deps unique="34">
     <dep name="acl">16</dep>
     <dep name="acl:relcl">8</dep>
-    <dep name="advcl">22</dep>
-    <dep name="advmod">88</dep>
+    <dep name="advcl">26</dep>
+    <dep name="advmod">85</dep>
     <dep name="amod">16</dep>
     <dep name="appos">3</dep>
     <dep name="aux">25</dep>
-    <dep name="case">31</dep>
-    <dep name="cc">7</dep>
+    <dep name="case">28</dep>
+    <dep name="cc">5</dep>
     <dep name="ccomp">32</dep>
     <dep name="clf">27</dep>
-    <dep name="compound">26</dep>
+    <dep name="compound">25</dep>
     <dep name="compound:prt">8</dep>
     <dep name="compound:svc">61</dep>
-    <dep name="conj">426</dep>
+    <dep name="conj">427</dep>
     <dep name="cop">12</dep>
     <dep name="csubj">3</dep>
     <dep name="dep">16</dep>
-    <dep name="det">64</dep>
+    <dep name="det">68</dep>
     <dep name="discourse">46</dep>
     <dep name="flat">2</dep>
     <dep name="iobj">4</dep>
     <dep name="mark">8</dep>
     <dep name="nmod">13</dep>
-    <dep name="nmod:poss">6</dep>
-    <dep name="nsubj">205</dep>
+    <dep name="nmod:poss">7</dep>
+    <dep name="nsubj">204</dep>
     <dep name="nummod">16</dep>
     <dep name="obj">68</dep>
     <dep name="obl">120</dep>
