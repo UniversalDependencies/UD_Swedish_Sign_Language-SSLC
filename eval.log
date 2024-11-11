@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Swedish_Sign_Language-SSLC:
-commit f73ce6cfcddcf15df2cf9653ec9b84eee4bd9acf
+commit ac3b7589565d013283882f13834e6cd2f7f8de33
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 13:08:27 2023 +0100
+Date:   Sun May 5 13:34:14 2024 +0200
 Size: counted 1610 of 1610 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.952468357992743.
 Size: maximum value 13.815511 is for 1000000 words or more.
