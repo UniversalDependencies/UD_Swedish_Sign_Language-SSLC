@@ -39,6 +39,7 @@ software for converting between the annotation format (ELAN) and CoNLL-U.
 Data available since: UD v1.4
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: spoken
 Lemmas: not available
 UPOS: converted from manual
