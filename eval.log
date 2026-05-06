@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Swedish_Sign_Language-SSLC:
-commit e225e7a2d389d8067f5b9d71972b3a83d06fddcf
-Merge: e68cc76 6d83da5
+commit f84ade6e7602477f6701c5a2c3edb927efcac8c9
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:55:30 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'swl_sslc'
 Language code (from CoNLL-U file name) = 'swl'
@@ -25,10 +25,11 @@ Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang swl --max-err=10 UD_Swedish_Sign_Language-SSLC/swl_sslc-ud-test.conllu
-[Line 62 Sent SSLC01_104:38:55]: [L3 Warning obl-should-be-nmod] The parent (node [3] 'ORDFÖRANDE') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-Warnings: 1
-*** PASSED ***
-Validity: 1
+[Line 62 Sent SSLC01_104:38:55]: [L3 SYNTAX obl-should-be-nmod] The parent (node [3] 'ORDFÖRANDE') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+SYNTAX errors: 1
+*** FAILED *** with 1 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.01) = 0.00111111111111111
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=0.01) = 0.00111111111111111
@@ -36,6 +37,6 @@ Validity: 1
 (weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
 (weight=0.111111111111111) * (score{tags}=0.611764705882353) = 0.0679738562091503
 (weight=0.111111111111111) * (score{udeprels}=0.648648648648649) = 0.0720720720720721
-(TOTAL score=0.174715789519722) * (availability=1) * (validity=1) = 0.174715789519722
-STARS = 1
-UD_Swedish_Sign_Language-SSLC	0.174715789519722	1
+(TOTAL score=0.174715789519722) * (availability=1) * (validity=0.01) = 0.00174715789519722
+STARS = 0
+UD_Swedish_Sign_Language-SSLC	0.00174715789519722	0
