@@ -59,7 +59,7 @@
 8	ORDFÖRANDE>tre	_	NOUN	NN	_	3	conj	_	_
 9	TRE	_	NUM	RG	_	3	nummod	_	_
 10	PEK>pekf	_	DET	PEK	_	11	det	_	_
-11	IDROTT^KLUBB	_	NOUN	NN	_	3	obl	_	_
+11	IDROTT^KLUBB	_	NOUN	NN	_	3	nmod	_	_
 12	PEK>långf	_	DET	PEK	_	13	det	_	_
 13	DÖVFÖRENING	_	NOUN	NN	_	11	conj	_	_
 14	PEK>ringf	_	DET	PEK	_	15	det	_	_
