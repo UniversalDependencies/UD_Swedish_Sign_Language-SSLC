@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Swedish_Sign_Language-SSLC:
-commit f84ade6e7602477f6701c5a2c3edb927efcac8c9
+commit af1b1eff893b63592505ddad2f78096d65a5e0aa
+Merge: 34f757d 03ef2da
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 20:55:30 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'swl_sslc'
 Language code (from CoNLL-U file name) = 'swl'
@@ -25,11 +25,8 @@ Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang swl --max-err=10 UD_Swedish_Sign_Language-SSLC/swl_sslc-ud-test.conllu
-[Line 62 Sent SSLC01_104:38:55]: [L3 SYNTAX obl-should-be-nmod] The parent (node [3] 'ORDFÖRANDE') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-SYNTAX errors: 1
-*** FAILED *** with 1 errors
-Exit code: 1
-Validity: 0.01
+*** PASSED ***
+Validity: 1
 (weight=0.111111111111111) * (score{features}=0.01) = 0.00111111111111111
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=0.01) = 0.00111111111111111
@@ -37,6 +34,6 @@ Validity: 0.01
 (weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
 (weight=0.111111111111111) * (score{tags}=0.611764705882353) = 0.0679738562091503
 (weight=0.111111111111111) * (score{udeprels}=0.648648648648649) = 0.0720720720720721
-(TOTAL score=0.174715789519722) * (availability=1) * (validity=0.01) = 0.00174715789519722
-STARS = 0
-UD_Swedish_Sign_Language-SSLC	0.00174715789519722	0
+(TOTAL score=0.174715789519722) * (availability=1) * (validity=1) = 0.174715789519722
+STARS = 1
+UD_Swedish_Sign_Language-SSLC	0.174715789519722	1
